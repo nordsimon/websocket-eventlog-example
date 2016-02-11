@@ -1,0 +1,29 @@
+{
+  "name": "websocket-eventlog-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "./node_modules/.bin/webpack",
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "6.5.1",
+    "babel-loader": "6.2.2",
+    "babel-preset-es2015": "6.5.0",
+    "babel-preset-react": "6.5.0",
+    "json-loader": "0.5.4",
+    "webpack": "1.12.13"
+  },
+  "dependencies": {
+    "level-js": "2.2.3",
+    "leveldown": "1.4.4",
+    "levelup": "1.3.1",
+    "socket.io": "1.4.5",
+    "socket.io-client": "1.4.5"
+  }
+}
